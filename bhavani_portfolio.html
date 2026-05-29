@@ -1,0 +1,120 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans)}
+.hero{background:linear-gradient(135deg,#1a1b2e 0%,#16213e 50%,#0f3460 100%);border-radius:var(--border-radius-lg);padding:2.5rem 2rem 2rem;color:#fff;margin-bottom:1.5rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-60px;right:-60px;width:200px;height:200px;border-radius:50%;background:rgba(100,120,255,0.15)}
+.hero::after{content:'';position:absolute;bottom:-40px;left:-40px;width:150px;height:150px;border-radius:50%;background:rgba(0,220,180,0.1)}
+.avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#7c3aed,#06b6d4);display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:500;color:#fff;margin-bottom:1rem;border:3px solid rgba(255,255,255,0.2)}
+.hero h1{font-size:24px;font-weight:500;color:#fff;margin-bottom:4px}
+.hero .subtitle{font-size:14px;color:rgba(255,255,255,0.6);margin-bottom:1.2rem}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{padding:4px 12px;border-radius:20px;font-size:12px;font-weight:500;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.15)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1.25rem}
+.card-title{font-size:13px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:1rem}
+.skill-chip{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:6px;font-size:13px;margin:3px;background:var(--color-background-secondary);color:var(--color-text-primary);border:0.5px solid var(--color-border-tertiary)}
+.skill-dot{width:8px;height:8px;border-radius:50%}
+.project-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1.25rem;margin-bottom:1rem}
+.project-header{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.project-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px}
+.project-title{font-size:15px;font-weight:500;color:var(--color-text-primary)}
+.project-desc{font-size:13px;color:var(--color-text-secondary);line-height:1.6;margin-bottom:10px}
+.tech-pill{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;margin:2px;font-weight:500}
+.learning-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.learning-item:last-child{border-bottom:none}
+.learning-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1rem}
+.stat-box{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:0.75rem;text-align:center}
+.stat-num{font-size:20px;font-weight:500;color:var(--color-text-primary)}
+.stat-label{font-size:11px;color:var(--color-text-secondary);margin-top:2px}
+.quote-box{background:var(--color-background-secondary);border-left:3px solid #7c3aed;border-radius:0 var(--border-radius-md) var(--border-radius-md) 0;padding:0.875rem 1rem;margin-top:1rem}
+.connect-btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:6px;font-size:13px;border:0.5px solid var(--color-border-secondary);background:var(--color-background-primary);color:var(--color-text-primary);cursor:pointer;margin:4px;text-decoration:none}
+.connect-btn:hover{background:var(--color-background-secondary)}
+.section-full{margin-bottom:1rem}
+</style>
+
+<h2 class="sr-only">Bhavani's developer portfolio showcasing skills, projects, and learning journey</h2>
+
+<div class="hero">
+  <div class="avatar">B</div>
+  <h1>Bhavani</h1>
+  <p class="subtitle">Student · Developer · Problem Solver · Hyderabad, India</p>
+  <div class="tags">
+    <span class="tag"><i class="ti ti-code" aria-hidden="true"></i> Web Development</span>
+    <span class="tag"><i class="ti ti-brain" aria-hidden="true"></i> Artificial Intelligence</span>
+    <span class="tag"><i class="ti ti-device-laptop" aria-hidden="true"></i> Software Engineering</span>
+  </div>
+</div>
+
+<div class="stat-row">
+  <div class="stat-box"><div class="stat-num">6+</div><div class="stat-label">Skills</div></div>
+  <div class="stat-box"><div class="stat-num">2</div><div class="stat-label">Projects</div></div>
+  <div class="stat-box"><div class="stat-num">4</div><div class="stat-label">Learning</div></div>
+</div>
+
+<div class="grid2">
+  <div class="card">
+    <div class="card-title">Skills</div>
+    <div>
+      <span class="skill-chip"><span class="skill-dot" style="background:#e34c26"></span>HTML</span>
+      <span class="skill-chip"><span class="skill-dot" style="background:#264de4"></span>CSS</span>
+      <span class="skill-chip"><span class="skill-dot" style="background:#f7df1e"></span>JS</span>
+      <span class="skill-chip"><span class="skill-dot" style="background:#3776ab"></span>Python</span>
+      <span class="skill-chip"><span class="skill-dot" style="background:#a8b9cc"></span>C</span>
+      <span class="skill-chip"><span class="skill-dot" style="background:#b07219"></span>Java</span>
+      <span class="skill-chip"><span class="skill-dot" style="background:#336791"></span>SQL</span>
+      <span class="skill-chip"><span class="skill-dot" style="background:#f05032"></span>Git</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-title">Currently learning</div>
+    <div class="learning-item"><span class="learning-dot" style="background:#7c3aed"></span><span style="font-size:13px;color:var(--color-text-primary)">Artificial Intelligence</span></div>
+    <div class="learning-item"><span class="learning-dot" style="background:#06b6d4"></span><span style="font-size:13px;color:var(--color-text-primary)">Data Structures & Algorithms</span></div>
+    <div class="learning-item"><span class="learning-dot" style="background:#10b981"></span><span style="font-size:13px;color:var(--color-text-primary)">Full Stack Development</span></div>
+    <div class="learning-item"><span class="learning-dot" style="background:#f59e0b"></span><span style="font-size:13px;color:var(--color-text-primary)">Compiler Design</span></div>
+  </div>
+</div>
+
+<div class="section-full">
+  <div class="card-title" style="margin-bottom:0.75rem;font-size:13px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:0.05em">Projects</div>
+
+  <div class="project-card">
+    <div class="project-header">
+      <div class="project-icon" style="background:#1a1b2e">🎬</div>
+      <div>
+        <div class="project-title">Movie Website</div>
+      </div>
+    </div>
+    <p class="project-desc">A responsive movie-themed website built with smooth slider components and modern CSS layout techniques.</p>
+    <span class="tech-pill" style="background:#e34c2620;color:#e34c26">HTML</span>
+    <span class="tech-pill" style="background:#264de420;color:#264de4">CSS</span>
+    <span class="tech-pill" style="background:#f7df1e20;color:#b8a800">JavaScript</span>
+    <span class="tech-pill" style="background:#7c3aed20;color:#7c3aed">Swiper.js</span>
+  </div>
+
+  <div class="project-card">
+    <div class="project-header">
+      <div class="project-icon" style="background:#0f3460">🤖</div>
+      <div>
+        <div class="project-title">AI Learning Projects</div>
+      </div>
+    </div>
+    <p class="project-desc">Hands-on implementations of core AI concepts — exploring constraint satisfaction, adversarial search, and logical reasoning.</p>
+    <span class="tech-pill" style="background:#3776ab20;color:#3776ab">Python</span>
+    <span class="tech-pill" style="background:#7c3aed20;color:#7c3aed">CSPs</span>
+    <span class="tech-pill" style="background:#06b6d420;color:#0891b2">Mini-Max</span>
+    <span class="tech-pill" style="background:#10b98120;color:#059669">FOL</span>
+  </div>
+</div>
+
+<div class="card" style="margin-bottom:1rem">
+  <div class="card-title">Connect</div>
+  <a class="connect-btn" href="https://github.com/YOUR_USERNAME" target="_blank"><i class="ti ti-brand-github" aria-hidden="true"></i> GitHub</a>
+  <a class="connect-btn" href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank"><i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn</a>
+  <button class="connect-btn" onclick="sendPrompt('Help me improve my GitHub profile and README')"><i class="ti ti-sparkles" aria-hidden="true"></i> Improve my GitHub ↗</button>
+</div>
+
+<div class="quote-box">
+  <p style="font-size:14px;color:var(--color-text-secondary);font-style:italic">"Keep learning, keep building."</p>
+</div>
