@@ -17,6 +17,7 @@
 * Java
 * SQL
 * Git & GitHub
+  om goda
 
 ---
 
