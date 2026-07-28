@@ -26,7 +26,7 @@
 * Artificial Intelligence
 * Data Structures & Algorithms
 * Full Stack Development
-* Compiler Design
+* Compiler Design  on and and and add soon on the off the point which is gooint
 
 ---
 
