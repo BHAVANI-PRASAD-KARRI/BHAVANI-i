@@ -17,7 +17,6 @@
 * Java
 * SQL
 * Git & GitHub
-  khbkbkb
 
 ---
 
