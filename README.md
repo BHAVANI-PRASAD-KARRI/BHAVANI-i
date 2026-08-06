@@ -17,7 +17,7 @@
 * Java
 * SQL
 * Git & GitHub
-
+🆗👌👌👌🆗🆗🆗👌🆗👌🆗👌🤗👌🆗👌🆗🆗👌🆗🤗🤗🤗🆗🆗🤗🆗👌🆗🤗👌🆗🤗🆗👌🤗🆗
 ---
 
 ## Currently Learning
