@@ -19,7 +19,8 @@
 * Git & GitHub
 🆗👌👌👌🆗🆗🆗👌🆗👌🆗👌
 👌🆗👌🆗🆗👌🆗🤗🤗🤗🆗🆗🤗🆗
-👌🆗🤗👌🆗🤗🆗👌🤗
+👌
+which possible one that with use on that so not which siut🆗🤗👌🆗🤗🆗👌🤗
 ---
 
 ## Currently Learning
