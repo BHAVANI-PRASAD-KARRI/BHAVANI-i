@@ -17,9 +17,7 @@
 * Java
 * SQL
 * Git & GitHub
-🆗👌👌👌🆗🆗🆗👌🆗👌🆗👌
-👌🆗👌🆗🆗👌🆗🤗🤗🤗🆗🆗🤗🆗
-
+* point add that which is on file 
 which possible one that with use on that 
 ---
 
